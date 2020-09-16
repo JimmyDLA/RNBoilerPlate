@@ -6,9 +6,9 @@ import {
   Animated,
 } from 'react-native'
 import { setGame } from 'App/Redux/modules/home';
-import reactLogo from 'App/Assets/Images/react-logo.png';
 import { connect } from 'react-redux'
 import { style } from './HomeScreen.style'
+import reactLogo from 'App/Assets/Images/react-logo2.jpeg';
 
 class HomeScreen extends React.Component {
   spinAnimate = new Animated.Value(0);

@@ -44,6 +44,6 @@ export const style = StyleSheet.create({
   title: {
     ...Fonts.style.h2,
     textAlign: 'center',
-    marginBottom: 10,
+    marginBottom: hp(5),
   },
 })
