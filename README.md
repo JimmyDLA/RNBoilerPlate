@@ -18,7 +18,7 @@ This is a React Native boilerplate with Redux, Saga, Navigation, Axios, and othe
 ### Installing
 
 1. Clone or download repo.
-2. cd into `MobileIM` folder.
+2. cd into `RNBoilerplate` folder.
 3. run `yarn` to install dependencies.
 
 ### Executing program
