@@ -22,7 +22,6 @@ const persistConfig = {
   key: 'root',
   storage,
   blacklist: [
-    'game',
     'home',
     'splash',
   ],

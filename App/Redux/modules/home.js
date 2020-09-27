@@ -1,4 +1,6 @@
 // Actions
+
+// Example: 
 export const SET_GAME = 'pp/home/SET_GAME';
 
 // Initial State
@@ -11,8 +13,9 @@ export const home = (state = initialState, action) => {
   const { type, data } = action;
 
   switch (type) {
-    case SET_GAME:
-      return { ...state, ready: data };
+    // Example: 
+    // case SET_GAME:
+    //   return { ...state, ready: data };
 
     default:
       return state;
@@ -20,4 +23,6 @@ export const home = (state = initialState, action) => {
 };
 
 // Action creators
-export const setGame = data =>({ type: SET_GAME, data});
+
+// Example: 
+// export const setGame = data =>({ type: SET_GAME, data});
