@@ -27,6 +27,19 @@ This is a React Native boilerplate with Redux, Saga, Navigation, Axios, and othe
 2. on a new terminal window, cd into the `RNBoilerplate` folder.
 3. run `react-native run-[platform]` (platform: ios/android)
 
+## Using the boilerplate
+
+To create a new project using the boilerplate:
+
+- After cloning this repository
+- remove the previous git history: `rm -rf .git/`
+- install the npm dependencies by running `yarn`
+- rename the React Native project to your own project name: `yarn run rename -- <YourProjectName>` (the default name is `Boilerplate`)
+
+Feel free to remove the section "Using the boilerplate" from the README (you will not need it anymore in your project). You are encouraged to keep the rest of the documentation in your project so that it is self-explanatory.
+
+You can now create a new git repository for your project (using `git init`) and create the first commit.
+
 ## Help
 
 Any advise for common problems or issues please report under the `issues` tab.
